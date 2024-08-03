@@ -34,7 +34,6 @@ app.get("/",(req,res)=>{
             console.log("error")
             return res.json(err)
         }
-        res.send("Hello")
         return res.json(result)
     })
 })
